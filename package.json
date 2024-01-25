@@ -24,7 +24,12 @@
   },
   "name": "sanity-algolia",
   "author": "Rune Botten",
+  "type": "module",
   "module": "dist/sanity-algolia.esm.js",
+  "exports": {
+    "import": "./dist/sanity-algolia.esm.js",
+    "require": "./dist/sanity-algolia.cjs.js"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/stopword": "^0.3.0",
